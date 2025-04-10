@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>noTheOwNeR's website</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <iframe width="420" height="315"
-    src="https://www.youtube.com/embed/toZW65rksYY">
-    </iframe>
-    <img src="https://cdn.7tv.app/emote/01GH5GNR7R000DV4VPC0PR1W61/4x.gif" alt="bwanadance">
-    <img src="https://cdn.betterttv.net/emote/613497efaf28e956864c028b/3x.webp" alt="gopherDetective">
+<body>
+  <button id="darkModeToggle">Toggle Dark Mode</button>
 
-  </body>
-</html>
+  <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/toZW65rksYY">
+  </iframe>
+  <img src="https://cdn.7tv.app/emote/01GH5GNR7R000DV4VPC0PR1W61/4x.gif" alt="bwanadance">
+  <img src="https://cdn.betterttv.net/emote/613497efaf28e956864c028b/3x.webp" alt="gopherDetectiv">
+
+  <script>
+    const toggleBtn = document.getElementById('darkModeToggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
